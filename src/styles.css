@@ -1,0 +1,17 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+
+.selection-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.filter-date-container {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+}
+  
