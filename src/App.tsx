@@ -175,10 +175,6 @@ export const App: React.FC = props => {
     return result;
   };
 
-  const clearFilters = () => {
-    itemSelections.set("Age", "").set("Status", "").set("Diet", "").set("Date", "");
-  };
-
   // useMemo?
   const filteredCreaturesForSelectedDate = filterCreaturesForSelectedDate();
   const familyDataForOneDay = createFamilyDataForOneDay(filteredCreaturesForSelectedDate);
